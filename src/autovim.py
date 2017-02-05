@@ -35,7 +35,9 @@ def clone_plugins():
         'https://github.com/vim-syntastic/syntastic.git',
         'https://github.com/reasonml/vim-reason-loader.git',
         'https://github.com/sheerun/vim-polyglot.git',
-        'https://github.com/Valloric/YouCompleteMe.git']
+        'https://github.com/Valloric/YouCompleteMe.git',
+        'https://github.com/fatih/vim-go.git',
+        'https://github.com/JalaiAmitahl/maven-compiler.vim.git']
     print os.getcwd()
     vimdir = os.path.expanduser('~/.vim/pack/plugins/start')
     os.chdir(vimdir)

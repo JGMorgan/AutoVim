@@ -17,10 +17,11 @@ set wildmenu        "visual autocomplete for command menu
 set showmatch       "highlight matching [{()}]
 
 set smartindent
+set autoindent
 
 "REBINDINGS
 map <C-n>          :NERDTreeToggle<CR> 
-noremap <F3>       :Autoformat<CR>
+noremap <F4>       :Autoformat<CR>
 map <C-e>          :SyntasticCheck<CR>   
 map <C-r>          :SyntasticReset<CR>
 nnoremap <C-S-tab> :tabprevious<CR>
