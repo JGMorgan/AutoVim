@@ -18,3 +18,5 @@ it to .vimrc, that contains all of my keybindings, preferred color theme,
 and some plugin specific settings. Feel free to edit it to make vim how
 want it. Also copy over solarized.vim into .vim/colors if you want to 
 use the solarized color theme. solzarized.vim came from [this repo](https://github.com/altercation/vim-colors-solarized).
+
+Also be sure to install powerline fonts from [this repo](https://github.com/powerline/fonts).
